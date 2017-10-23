@@ -8,5 +8,5 @@
 #import <Foundation/Foundation.h>
 #import "BTOperation.h"
 @interface BTGroupOperation : BTOperation
-
+- (instancetype)initWithOperations:(NSArray *)operations;
 @end
