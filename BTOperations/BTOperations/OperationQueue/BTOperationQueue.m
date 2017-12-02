@@ -6,7 +6,7 @@
 //
 
 #import "BTOperationQueue.h"
-
+#import "BTOperation.h"
 @implementation BTOperationQueue
 - (void)addOperation:(NSOperation *)op {
     [super addOperation:op];
@@ -17,5 +17,8 @@
             [weakSelf.delegate operationQueue:weakSelf operationDidFinish:weakOp];
         }
     };
+    if ([op isKindOfClass:[BTOperation class]]) {
+        [(BTOperation *)op didEnqueue];
+    }
 }
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C17C03A1FD1309800CC8CB4 /* TestCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C17C0391FD1309800CC8CB4 /* TestCondition.m */; };
 		4C370F761F9CCBA9006506E9 /* BTOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C370F741F9CCBA9006506E9 /* BTOperation.m */; };
 		4C370F7F1F9D8E98006506E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C370F7E1F9D8E98006506E9 /* AppDelegate.m */; };
 		4C370F821F9D8E98006506E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C370F811F9D8E98006506E9 /* ViewController.m */; };
@@ -28,6 +29,10 @@
 		4C3A884B1F9C65AC008F9E3C /* BTOperationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A884A1F9C65AC008F9E3C /* BTOperationsTests.m */; };
 		4C3A88581F9C65E2008F9E3C /* BTGroupOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A88561F9C65E2008F9E3C /* BTGroupOperation.m */; };
 		4C83ABBF1F9C68990076018C /* BTOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C83ABBD1F9C68990076018C /* BTOperationQueue.m */; };
+		4CE394F71FD114B60092227F /* BTOperationCondition.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CE394F51FD114B60092227F /* BTOperationCondition.h */; };
+		4CE394F81FD114B60092227F /* BTOperationCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE394F61FD114B60092227F /* BTOperationCondition.m */; };
+		4CE394FB1FD115010092227F /* BTOperationConditionEvaluator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CE394F91FD115010092227F /* BTOperationConditionEvaluator.h */; };
+		4CE394FC1FD115010092227F /* BTOperationConditionEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE394FA1FD115010092227F /* BTOperationConditionEvaluator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C17C0381FD1309800CC8CB4 /* TestCondition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCondition.h; sourceTree = "<group>"; };
+		4C17C0391FD1309800CC8CB4 /* TestCondition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCondition.m; sourceTree = "<group>"; };
 		4C370F731F9CCBA9006506E9 /* BTOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTOperation.h; sourceTree = "<group>"; };
 		4C370F741F9CCBA9006506E9 /* BTOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTOperation.m; sourceTree = "<group>"; };
 		4C370F7B1F9D8E98006506E9 /* BTOperationsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTOperationsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +90,10 @@
 		4C3A88561F9C65E2008F9E3C /* BTGroupOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTGroupOperation.m; sourceTree = "<group>"; };
 		4C83ABBC1F9C68990076018C /* BTOperationQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTOperationQueue.h; sourceTree = "<group>"; };
 		4C83ABBD1F9C68990076018C /* BTOperationQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTOperationQueue.m; sourceTree = "<group>"; };
+		4CE394F51FD114B60092227F /* BTOperationCondition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTOperationCondition.h; sourceTree = "<group>"; };
+		4CE394F61FD114B60092227F /* BTOperationCondition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTOperationCondition.m; sourceTree = "<group>"; };
+		4CE394F91FD115010092227F /* BTOperationConditionEvaluator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTOperationConditionEvaluator.h; sourceTree = "<group>"; };
+		4CE394FA1FD115010092227F /* BTOperationConditionEvaluator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTOperationConditionEvaluator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +144,8 @@
 				4C370F7E1F9D8E98006506E9 /* AppDelegate.m */,
 				4C370F801F9D8E98006506E9 /* ViewController.h */,
 				4C370F811F9D8E98006506E9 /* ViewController.m */,
+				4C17C0381FD1309800CC8CB4 /* TestCondition.h */,
+				4C17C0391FD1309800CC8CB4 /* TestCondition.m */,
 				4C370F831F9D8E98006506E9 /* Main.storyboard */,
 				4C370F861F9D8E98006506E9 /* Assets.xcassets */,
 				4C370F881F9D8E98006506E9 /* LaunchScreen.storyboard */,
@@ -195,6 +208,7 @@
 		4C3A883E1F9C65AC008F9E3C /* BTOperations */ = {
 			isa = PBXGroup;
 			children = (
+				4CE394F41FD114740092227F /* Conditions */,
 				4C83ABBB1F9C687C0076018C /* OperationQueue */,
 				4C3A88541F9C65C4008F9E3C /* Operations */,
 				4C3A883F1F9C65AC008F9E3C /* BTOperations.h */,
@@ -232,6 +246,17 @@
 			path = OperationQueue;
 			sourceTree = "<group>";
 		};
+		4CE394F41FD114740092227F /* Conditions */ = {
+			isa = PBXGroup;
+			children = (
+				4CE394F51FD114B60092227F /* BTOperationCondition.h */,
+				4CE394F61FD114B60092227F /* BTOperationCondition.m */,
+				4CE394F91FD115010092227F /* BTOperationConditionEvaluator.h */,
+				4CE394FA1FD115010092227F /* BTOperationConditionEvaluator.m */,
+			);
+			path = Conditions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -241,7 +266,9 @@
 			files = (
 				4C370FB01F9D91DC006506E9 /* BTOperationQueue.h in Headers */,
 				4C370FB11F9D91DC006506E9 /* BTGroupOperation.h in Headers */,
+				4CE394FB1FD115010092227F /* BTOperationConditionEvaluator.h in Headers */,
 				4C370FB21F9D91DC006506E9 /* BTOperation.h in Headers */,
+				4CE394F71FD114B60092227F /* BTOperationCondition.h in Headers */,
 				4C370FB31F9D91DC006506E9 /* BTOperations.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +466,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C370F821F9D8E98006506E9 /* ViewController.m in Sources */,
+				4C17C03A1FD1309800CC8CB4 /* TestCondition.m in Sources */,
 				4C370F8D1F9D8E98006506E9 /* main.m in Sources */,
 				4C370F7F1F9D8E98006506E9 /* AppDelegate.m in Sources */,
 			);
@@ -465,7 +493,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C370FAE1F9D9195006506E9 /* BTGroupOperation.h in Sources */,
+				4CE394F81FD114B60092227F /* BTOperationCondition.m in Sources */,
 				4C370FAF1F9D9195006506E9 /* BTOperation.h in Sources */,
+				4CE394FC1FD115010092227F /* BTOperationConditionEvaluator.m in Sources */,
 				4C370FAD1F9D9189006506E9 /* BTOperationQueue.h in Sources */,
 				4C370F761F9CCBA9006506E9 /* BTOperation.m in Sources */,
 				4C3A88581F9C65E2008F9E3C /* BTGroupOperation.m in Sources */,

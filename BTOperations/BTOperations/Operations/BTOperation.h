@@ -6,8 +6,12 @@
 //
 
 #import <Foundation/Foundation.h>
+@class BTOperationCondition;
 typedef NS_ENUM(NSInteger,BTOperationState)
 {
+    BTOperationStateInitialized,
+    BTOperationStatePending,
+    BTOperationStateEvaluatingConditions,
     BTOperationStateReady,
     BTOperationStateExecuting,
     BTOperationStateFinished,
@@ -18,5 +22,6 @@ typedef NS_ENUM(NSInteger,BTOperationState)
 
 - (void)execute;
 - (void)finish;
-
+- (void)addCondition:(BTOperationCondition *)condition;
+- (void)didEnqueue;
 @end
