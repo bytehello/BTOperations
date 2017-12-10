@@ -3,7 +3,7 @@ NSOperation高级用法
 
 ## NSOperation基础
 
-写了篇关于Operationj基础的文章 👋 
+写了篇关于Operation基础的文章 👋 
 [NSOperation 高级用法之NSOperation基础（NSOperation源码分析）（上）](http://www.jianshu.com/p/16dd443f4cf2)
 
 ## BTGroupOperation使用
